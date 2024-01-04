@@ -1,15 +1,11 @@
-
+import HeroSection from "./components/HeroSection";
 
 function App() {
-
   return (
     <>
-      <div>
-        <h1>Initial setup</h1>
-      </div>
-      
+      <HeroSection />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
